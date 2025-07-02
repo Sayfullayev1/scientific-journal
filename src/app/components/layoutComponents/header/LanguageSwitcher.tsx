@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useParams, useRouter, usePathname } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { log } from "node:console";
 
 const LANGS = [
@@ -10,7 +10,6 @@ const LANGS = [
 ];
 
 const LanguageSwitcher = () => {
-  const params = useParams();
   const router = useRouter();
   const pathname = usePathname();
 
