@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { useRouter, usePathname } from "next/navigation";
-import { log } from "node:console";
 
 const LANGS = [
   { code: "uz", label: "UZ", style: 'bg-[#e04d4d]' },
