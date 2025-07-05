@@ -1,4 +1,20 @@
 {
-  "hello": "Hello, world!",
-  "about": "About us"
+  "layoutComponents": {
+    "header": {
+      "button": "Read online"
+    },
+    "navbar": {
+      "title": "Scientific Journal\n of Academic Research",
+      "text": "SCIENTIFIC JOURNAL"
+    },
+    "footer": {
+      "text": "Footer text"
+    }
+  },
+  "pages": {
+    "homePage": {
+      "title": "Home Page",
+      "description": "Welcome to the home page of our scientific journal. Here you can find the latest research articles and updates."      
+    }
+  }
 }

@@ -1,0 +1,4 @@
+
+используется lucide-react для  иконок
+
+npm install lucide-react

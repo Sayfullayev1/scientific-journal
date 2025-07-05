@@ -1,4 +1,20 @@
 {
-  "hello": "Salom, dunyo!",
-  "about": "Biz haqimizda"
+  "layoutComponents": {
+    "header": {
+      "button": "Onlayn o'qish"
+    },
+    "navbar": {
+      "title": "Ilmiy Akademik\n Tadqiqot Jurnali",
+      "text": "ILMIY JURNAL"
+    },
+    "footer": {
+      "text": "Текст подвала"
+    }
+  },
+  "pages": {
+    "homePage": {
+      "title": "Bosh sahifa",
+      "description": "Ilmiy jurnalimizning bosh sahifasiga xush kelibsiz. Bu yerda siz so'nggi tadqiqot maqolalari va yangiliklarni topishingiz mumkin."
+    }
+  }
 }

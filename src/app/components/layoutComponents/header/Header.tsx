@@ -1,9 +1,9 @@
 import React from 'react';
 import LanguageSwitcher from './LanguageSwitcher';
-// import { useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 const Header = () => {
-  // const t = useTranslations('header');
+  const t = useTranslations('layoutComponents');
 
   return (
     <header className="container">
@@ -14,7 +14,7 @@ const Header = () => {
         </div>
         <div className="flex gap-3">
           <LanguageSwitcher />
-          {/* <button className="p-[9px_17px] bg-[#E8B547] rounded-[4px] cursor-pointer">{t('readOnline')}</button> */}
+          <button className="p-[9px_17px] bg-[#E8B547] rounded-[4px] cursor-pointer">{t('header.button')}</button>
         </div>
       </div>
     </header>

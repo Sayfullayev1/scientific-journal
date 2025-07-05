@@ -28,16 +28,24 @@ export default async function LocaleLayout({
 
           <Header/>
           <Navbar/>
-            <div  className='bg-[#F5F7FA]'>
+
+            <div className='bg-[#F5F7FA]'>
               <div className="container">
-                <div className='grid grid-cols-[1fr_3fr_1fr] gap-8 py-8'>
-                  <LeftSidebar />
+                <div className="grid grid-cols-[1fr_3fr_1fr] gap-8 py-8 xl:flex xl:justify-between">
+                  <div className="max-w-[280px] w-full">
+                    <LeftSidebar />
+                  </div>
+
+                  <div className="flex-1">
                     {children}
-                  <RightSidebar />
+                  </div>
+
+                  <div className="max-w-[280px] w-full">
+                    <RightSidebar />
+                  </div>
                 </div>
               </div>
             </div>
-            
             
           <Footer/>
 
