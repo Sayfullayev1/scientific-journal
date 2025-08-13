@@ -3,11 +3,13 @@ import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 
 
-import Header from '../components/layoutComponents/header/Header';
-import Navbar from '../components/layoutComponents/navbar/Navbar';
-import Footer from '../components/layoutComponents/footer/Footer';
-import LeftSidebar from '../components/layoutComponents/sidebars/leftSidebar/LeftSidebar';
-import RightSidebar from '../components/layoutComponents/sidebars/rightSidebar/RightSidebar';
+import Header from '@/components/layoutComponents/header/Header';
+import Navbar from '@/components/layoutComponents/navbar/Navbar';
+import Footer from '@/components/layoutComponents/footer/Footer';
+import LeftSidebar from '@/components/layoutComponents/sidebars/leftSidebar/LeftSidebar';
+import RightSidebar from '@/components/layoutComponents/sidebars/rightSidebar/RightSidebar';
+
+
  
 
 export default async function LocaleLayout({

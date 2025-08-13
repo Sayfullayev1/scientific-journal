@@ -9,6 +9,51 @@
     },
     "footer": {
       "text": "Текст подвала"
+    },
+    "sidebars": {
+      "leftSidebar": {
+        "list" : [
+            {
+                "title": "Jurnal haqida",
+                "link": "",
+                "items": [
+                    { "title": "Jurnal siyosati", "link": "" },
+                    { "title": "Umumiy ma'lumot", "link": "" },
+                    { "title": "Tahrir hay'ati", "link": "" },
+                    { "title": "Tahririy etika", "link": "" },
+                    { "title": "Taqriz", "link": "" },
+                    { "title": "Indekslash", "link": "" }
+                ]
+            },
+            {
+                "title": "O'quvchilar uchun",
+                "link": "",
+                "items": [
+                    { "title": "Joriy son", "link": "" },
+                    { "title": "Arxiv", "link": "/archive" },
+                    { "title": "Obuna", "link": "" }
+                ]
+            },
+            {
+                "title": "Mualliflar uchun ma'lumot",
+                "link": "",
+                "items": [
+                    { "title": "Nashr qoidalari", "link": "" },
+                    { "title": "Qo'lyozma rasmiylashtirish qoidalari", "link": "" },
+                    { "title": "Litsenziya shartnomasi", "link": "" }
+                ]
+            },
+            {
+                "title": "Foydali havolalar",
+                "link": "",
+                "items": []
+            }
+        ]
+      },
+      "rightSidebar": {
+        "title": "O'ng yon panel",
+        "description": "Bu o'ng yon panel bo'lib, qo'shimcha havolalar va ma'lumotlarni o'z ichiga olishi mumkin."
+      }
     }
   },
   "pages": {

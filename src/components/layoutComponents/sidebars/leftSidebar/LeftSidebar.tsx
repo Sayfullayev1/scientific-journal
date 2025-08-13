@@ -11,6 +11,8 @@ export default function LeftSidebar() {
         
         <Search />
 
+        
+
     </div>
   )
 }

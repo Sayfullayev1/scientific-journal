@@ -9,6 +9,51 @@
     },
     "footer": {
       "text": "Footer text"
+    },
+    "sidebars": {
+      "leftSidebar": {
+        "list" : [
+            {
+                "title": "About the Journal",
+                "link": "",
+                "items": [
+                    { "title": "Journal Policy", "link": "" },
+                    { "title": "General Information", "link": "" },
+                    { "title": "Editorial Board", "link": "" },
+                    { "title": "Editorial Ethics", "link": "" },
+                    { "title": "Peer Review", "link": "" },
+                    { "title": "Indexing", "link": "" }
+                ]
+            },
+            {
+                "title": "For Readers",
+                "link": "",
+                "items": [
+                    { "title": "Current Issue", "link": "" },
+                    { "title": "Archive", "link": "/archive" },
+                    { "title": "Subscription", "link": "" }
+                ]
+            },
+            {
+                "title": "Information for Authors",
+                "link": "",
+                "items": [
+                    { "title": "Publication Guidelines", "link": "" },
+                    { "title": "Manuscript Formatting Rules", "link": "" },
+                    { "title": "License Agreement", "link": "" }
+                ]
+            },
+            {
+                "title": "Useful Links",
+                "link": "",
+                "items": []
+            }
+        ]
+      },
+      "rightSidebar": {
+        "title": "Правый сайдбар",
+        "description": "Это правый сайдбар, который может содержать дополнительные ссылки и информацию."
+      }
     }
   },
   "pages": {
