@@ -29,7 +29,7 @@
                 "title": "Для читателей",
                 "link": "",
                 "items": [
-                    { "title": "Текущий номер", "link": "" },
+                    { "title": "Текущий номер", "link": "/current-issue" },
                     { "title": "Архив номеров", "link": "/archive" },
                     { "title": "Подписка", "link": "" }
                 ]

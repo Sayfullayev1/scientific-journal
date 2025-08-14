@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function paje() {
+export default function page() {
   return (
     <div>
-      wferrfeef
+      efef
     </div>
   )
 }

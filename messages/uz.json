@@ -29,7 +29,7 @@
                 "title": "O'quvchilar uchun",
                 "link": "",
                 "items": [
-                    { "title": "Joriy son", "link": "" },
+                    { "title": "Joriy son", "link": "/current-issue" },
                     { "title": "Arxiv", "link": "/archive" },
                     { "title": "Obuna", "link": "" }
                 ]

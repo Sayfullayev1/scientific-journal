@@ -29,7 +29,7 @@
                 "title": "For Readers",
                 "link": "",
                 "items": [
-                    { "title": "Current Issue", "link": "" },
+                    { "title": "Current Issue", "link": "/current-issue" },
                     { "title": "Archive", "link": "/archive" },
                     { "title": "Subscription", "link": "" }
                 ]
