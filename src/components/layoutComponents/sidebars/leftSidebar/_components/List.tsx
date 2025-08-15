@@ -17,9 +17,9 @@ export default function List() {
   const messages = useMessages();
   const data: MenuItem[] = messages?.layoutComponents?.sidebars?.leftSidebar?.list ?? [];
 
-  const dataLinks = [
+  // const dataLinks = [
     
-  ]
+  // ]
 
   return (
     <div className='w-full rounded-[8px] overflow-hidden'>

@@ -36,7 +36,7 @@ export default async function page() {
 
         <ul className='px-3'>
           {
-            data?.years?.map((item, index) => {
+            data?.years?.map((item: { title: string }, index: number) => {
               return(
                 <li key={index} className='my-[10px]'>
                   <Link href={`/category/${item.title}`} className='text-[16px] font-semibold text-[#3498DB]'>
