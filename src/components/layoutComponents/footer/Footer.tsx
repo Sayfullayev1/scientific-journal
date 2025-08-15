@@ -1,11 +1,13 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className='container border-t-[1.6px] border-[#2C5F7C]'>
+  <footer className='border-t-[1.6px] border-[#2C5F7C]'>
 
-    <div>
-      
+
+    <div className='container'>
+      vfvfdvsvd
     </div>
+
 
   </footer>
 );

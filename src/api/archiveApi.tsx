@@ -5,9 +5,13 @@ const apiUrl = api
 
 
 export default async function getArchiveYears() {
-  const response = await axios.get(`${apiUrl}/articles/year`);
-//   console.log('Fetching archive years:', response.data);
-  
-  return response.data;
+  try {
+    const response = await axios.get(`${apiUrl}/articles/year`);
+    return response.data;
+  } catch (error) {
+    // Выведите ошибку в консоль для SSR
+    // console.error('Ошибка запроса /articles/year:', error);
+    throw error;
+  }
 }
 

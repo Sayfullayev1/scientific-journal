@@ -60,6 +60,10 @@
     "homePage": {
       "title": "Bosh sahifa",
       "description": "Ilmiy jurnalimizning bosh sahifasiga xush kelibsiz. Bu yerda siz so'nggi tadqiqot maqolalari va yangiliklarni topishingiz mumkin."
+    },
+    "archivePage": {
+      "title": "Arxiv",
+      "year": "yil"
     }
   }
 }

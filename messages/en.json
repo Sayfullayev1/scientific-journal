@@ -60,6 +60,10 @@
     "homePage": {
       "title": "Home Page",
       "description": "Welcome to the home page of our scientific journal. Here you can find the latest research articles and updates."      
+    },
+    "archivePage": {
+      "title": "Archive",
+      "year": "year"
     }
   }
 }
